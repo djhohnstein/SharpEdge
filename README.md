@@ -1,0 +1,17 @@
+# SharpEdge
+
+SharpEdge is a C# implementation of @mattifestation's script Get-VaultCredential. The aim of this is to ride the wave of evasive .NET binaries that move red teams away from PowerShell and into a space that has less introspection.
+
+SharpEdge is written in .NET 2.0 CLR and dumps Internet Explorer/Microsoft Edge credentials.
+
+## Compilation
+
+To compile, simply load the solution into Visual Studio and build the project.
+
+## Usage
+
+.\SharpEdge.exe
+
+## Example Output
+
+![ExampleRun](ExampleRun.png)
